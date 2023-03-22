@@ -1,7 +1,7 @@
 # SysTick-Timer-and-interrupts
 Development of a counter/timer utilizing SysTick and Interrupts
 
-This code is a program for a timer that runs on an MSP430 microcontroller. The program initializes some global variables and the ports used for the LEDs and buttons. The program uses interrupts to handle button presses and update the timer. The timer is set up using the SysTick timer, which generates periodic interrupts that update the timer display and decrement the time remaining.
+This code is a program for a timer that runs on an MSP432 microcontroller. The program initializes some global variables and the ports used for the LEDs and buttons. The program uses interrupts to handle button presses and update the timer. The timer is set up using the SysTick timer, which generates periodic interrupts that update the timer display and decrement the time remaining.
 
 The program has functions to start, stop, reset, and set the timer. The timer can also blink the LEDs when it runs out. The main loop of the program waits for button presses and updates the timer when setting is enabled.
 The program has the following components:
